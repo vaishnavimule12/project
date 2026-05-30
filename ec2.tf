@@ -1,7 +1,6 @@
 provider "aws" {
   region = "eu-north-1"
-  access_key = "esdds"
-  secret_key = "gjakm"
+  
 }
 resource "aws_instance" "my-instance" {
   ami ="ami-00263659a97a6c29c"
